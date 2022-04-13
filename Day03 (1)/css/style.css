@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR&display=swap');
+/* 폰트 
+    1. Noto Sans
+        font-family: 'Noto Sans KR', sans-serif;
+    2. Nanum Myeongjo
+        font-family: 'Nanum Myeongjo', serif;
+*/
+
+/* reset */
+/* : 태그들이 가진 기본 스타일 속성을 초기화 한다. */
+* {margin: 0; padding: 0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+a {color: inherit; text-decoration: inherit;}
+li {list-style-type: none;}
+img {vertical-align: middle;}
+
+/* 레이아웃 */
+body { 
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 16px; 
+    color: #7e7e72;
+}
+.font { font-family: 'Nanum Myeongjo', serif; }
+.wrap { width: 100%; margin: 0 auto; overflow: hidden; }
+
