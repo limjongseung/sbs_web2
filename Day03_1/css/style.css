@@ -45,3 +45,36 @@ header nav ul li {
 header nav ul li a{color: #f2f2f2; font-size: 17px;}
 header nav ul li:hover {background-color: #ddd;}
 header nav ul li:hover a {color: black;}
+/* 섹션 : visual */
+
+section.visual {width: 100%; position: relative; margin-top: 53px;}
+section.visual img {width: 100%;}
+/* 이미지 위의 텍스트 영역 */
+section.visual .maintitle {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: white;
+}
+section.visual .maintitle h2 {
+    font-size: 68px;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+section.visual .maintitle h2 span {
+    font-size: 50px;
+    color: #ff7777;
+}
+section.visual .maintitle p{
+    font-size: 50px;
+    color: #f9f9f9;
+}
+/* inner */
+.inner {
+    width: 1050px;
+    margin: 0;
+}
+//////
