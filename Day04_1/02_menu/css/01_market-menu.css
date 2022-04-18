@@ -63,7 +63,7 @@ header {margin-bottom: 20px;}
 }
 
 /* 회원가입 | 로그인 | 고객센터 */
-#userMenu .menu:not(lst)::after {
+#userMenu .menu:not(.lst)::after {
     content: '';
     float: right;
     width: 1px;
@@ -105,7 +105,7 @@ header {margin-bottom: 20px;}
     display: flex;
     justify-content: center;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
-
+    background-color: #fff;
 }
 #gnb .gnb_kurly {
     width: 1050px;
@@ -114,7 +114,6 @@ header {margin-bottom: 20px;}
 }
 #gnb .inner_gnbkurly {
     position: relative;
-
     width: 1050px;
     height: 56px;
     margin: 0 auto;
@@ -125,6 +124,9 @@ header {margin-bottom: 20px;}
     width: 124px;
     height: 55px;
     padding: 16px 0 0;
+    color: #333;
+    line-height: 20px;
+    text-align: center;
 }
 #gnb .gnb_main ul.gnb a .txt {font-weight: 700;}
 #gnb .gnb_main ul.gnb a span:hover {
@@ -133,10 +135,32 @@ header {margin-bottom: 20px;}
 }
 
 /* 메뉴-전체카테고리 옆 왼쪽 햄버거 영역 */
-#gnb .gnb_main .meun .ico {
+#gnb .gnb_main .menu1 .ico {
     float: left;
     width: 16px;
     height: 14px;
     margin: 5px 14px 0 0;
     background: url(../img/ico_gnb_all_off.png) no-repeat;
+}
+
+/* 검색영역 */
+#gnb .gnb_search {
+    position: absolute;
+    top: 0;
+    right: 108px;
+    width: 223px;
+}
+
+/* 검색영역 - 입력상자 */
+#gnb .gnb_search .input_search {
+    width: 195px;
+    height: 36px;
+    background-color: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    border-radius: 18px;
+    padding: 0 23px 0 14px;
+    font-weight: 400;
+    color: #666;
+    line-height: 16px;
+    outline: none;     /* 입력상자의 윤곽선은 없앰 */
 }
