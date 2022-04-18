@@ -95,3 +95,48 @@ header {margin-bottom: 20px;}
     width: 103px;
     height: 79px;
 }
+
+/* gnb */
+#gnb {
+    position: sticky;
+    top: 0;;
+    height: 55px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+
+}
+#gnb .gnb_kurly {
+    width: 1050px;
+    background-color: white;
+    letter-spacing: -1px;
+}
+#gnb .inner_gnbkurly {
+    position: relative;
+
+    width: 1050px;
+    height: 56px;
+    margin: 0 auto;
+}
+/* 메뉴영역 -메인메뉴 */
+#gnb .gnb_main ul.gnb a {
+    float: left;
+    width: 124px;
+    height: 55px;
+    padding: 16px 0 0;
+}
+#gnb .gnb_main ul.gnb a .txt {font-weight: 700;}
+#gnb .gnb_main ul.gnb a span:hover {
+    color: #5f0080;
+    border-bottom: 1.5px solid #5f0080;
+}
+
+/* 메뉴-전체카테고리 옆 왼쪽 햄버거 영역 */
+#gnb .gnb_main .meun .ico {
+    float: left;
+    width: 16px;
+    height: 14px;
+    margin: 5px 14px 0 0;
+    background: url(../img/ico_gnb_all_off.png) no-repeat;
+}
