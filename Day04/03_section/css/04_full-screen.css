@@ -2,27 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
-body{
+body {
     font-family: 'Do Hyeon', sans-serif;
     line-height: 1.7;
     color: white;
 }
 
 .wrapper {
-    min-width: 1100px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 4%;
     box-sizing: border-box;
 }
 
 .big-bg {
-    background: url(../img/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+    background-image: url(../img/background.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#main {height: 100vh;}
+#main { height: 100vh; }
 
 /* 헤더 */
 .page-header {
@@ -33,13 +33,14 @@ body{
 }
 
 .main-nav {
-    width: 300px;
+    width: 300px;    
     display: flex;
     justify-content: space-between;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
-.main-nav a {
+ 
+.main-nav a { 
     transition: all 0.5s ease;
     padding-bottom: 10px;
 }
@@ -50,40 +51,63 @@ body{
     border-bottom: 1px solid rebeccapurple;
 }
 
-/* 내용영역 */
+/* 내용 영역 */
 .main-content {
     text-align: center;
     margin-top: 10%;
 }
 
 /* 제목 */
-.page-title{
+.page-title {
     font-size: 5rem;
     font-weight: bold;
-    font-family: 'Gugi',cursive;
+    font-family: 'Gugi', cursive;
 }
 
 /* 내용 */
 .main-content p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 10px 0 42px;
 }
 
 /* 버튼 */
- .button {
-     font-size: 1.3rem;
-     background-color: rebeccapurple;
-     color: white;
-     border-radius: 10px;
-     padding: 18px 32px;
- }
+.button {
+    font-size: 1.3rem;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 10px;
+    padding: 18px 32px;
+}
 
- .button:hover {
-     background-color: rgba(188, 141, 235, 0.8);
- }
+.button:hover {
+    background-color: rgba(188, 141, 235, 0.8);
+}
 
- /* 가로 사이즈 720px  이하 - 반응형 */
- /* 폰트 정가운데로 */
- @media screen and (max-width) {
-     
- }
+/* 720px  이하로 줄어들었을 때, (반응형) */
+@media screen and (max-width:720px) {
+    /* 1. 로고 가로 사이즈를 줄여주세요. */
+    .logo img{width: 150px;}
+    /* 2. 메뉴 가로 사이즈를 줄여주세요. */
+    .main-nav {width: 200px;}
+    /* 3. "희망을 디자인 합니다!" 타이틀 폰트 사이즈를 줄여주세요. */
+    .page-title{font-size: 40px;}
+    /* 4. 내용영역을 정가운데로 위치를 변경해주세요. */
+    .main-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    /* 5. "자세히 보기" 버튼 폰트 사이즈와 내부 여백을 줄여주세요. */
+    .button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+
+
+
+
+
+

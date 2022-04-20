@@ -53,7 +53,7 @@
 .evenly {justify-content: space-evenly;}
 
 /* 교차축 */
-.cross {height: 0;}
+.cross {height: 600px;}
 
 /* align-content */
 .content-stretch {align-content: stretch;}
@@ -61,8 +61,8 @@
 
 .content-stretch .item {height: auto;}
 
-.content-start{align-content: flex-start;}
-.content-end{align-content: flex-end;}
-.content-center{align-content: center;}
-.content-between{align-content: space-between;}
-.content-around{align-content: space-around;}
+.content-start { align-content: flex-start;}
+.content-end { align-content: flex-end;}
+.content-center { align-content: center;}
+.content-between { align-content: space-between;}
+.content-around { align-content: space-around;}
