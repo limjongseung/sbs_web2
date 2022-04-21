@@ -66,3 +66,20 @@
 .content-center { align-content: center;}
 .content-between { align-content: space-between;}
 .content-around { align-content: space-around;}
+
+/* align-item */
+.cross-center {align-items: center;}
+.cross-start {align-items: flex-start;}
+.cross-end {align-items: flex-end;}
+.cross-stretch {align-items: stretch;}
+.cross-stretch .item {height: auto; line-height: 100px;}
+.cross-baseline {align-items: baseline;}
+
+/* 정가운데 (수평 가운데/수직 가운데) */
+.center-center {
+    height: 600px;
+    justify-content: center; /* 주축으로 가운데 */
+    align-items: center;     /* 교차축으로 가운데 */
+}
+
+.center-center .item {font-size: 15px;}
