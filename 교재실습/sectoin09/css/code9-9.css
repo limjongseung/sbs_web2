@@ -1,0 +1,8 @@
+h1:first-of-type{ /* h1태그 주 첫 번째 h1 태그의 글자 색상 지정 */
+    color: red;
+}
+
+h2:last-of-type{/* h2태그 중 마지막 번째 h2태그의 글자와 배경색상지정 */
+    color: white;
+    background-color: blue;
+}

@@ -1,0 +1,6 @@
+input[type=text]{/* input태그 중에서 type속성이 text인 태그의 색상 배경 */
+    background-color: red;
+}
+input[type=password]{
+    background-color: blue; /* input태그중 type속성이 password인 태그의 배경색상 */
+}

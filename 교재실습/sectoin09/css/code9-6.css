@@ -1,0 +1,8 @@
+
+h1 +h2 { /* h1 바로 뒤에 있는 h2태그에 글자 색상변경 */
+    color: red;
+}
+
+h1 ~ h2 { /* h1 뒤에 있는 모든 h2태그에 글자 색상을 지정 */
+    background-color: orange;
+}

@@ -1,0 +1,14 @@
+input:enabled {
+    /* 입력할 수 있는 상태의 input 태그의 배경 색상과 글자색상을 지정 */
+    background:blue;
+    color: white;
+}
+input:disabled {
+    /* 입력할 수 없는 상태의 input 태그의 배경색상 지정 */
+    background: black;
+}
+
+input:focus {
+    /* input태그의 입력을 위한 초점이 맞춰진 상태에서의 배경 색상 지정 */
+    background: orange;
+}
