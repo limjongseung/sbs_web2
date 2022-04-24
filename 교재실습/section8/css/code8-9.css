@@ -1,0 +1,9 @@
+*{margin: 0;padding: 0;}
+.style_num01{
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}
+.style_num02{
+    list-style-type: lower-alpha;
+    list-style-position: outside;
+}

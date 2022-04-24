@@ -1,0 +1,12 @@
+
+ li{
+     border:2px solid black;
+ }
+
+ .v_menu {
+     list-style: none;
+ }
+
+ .h_menu {
+     display: inline;  /* inline속성으로 변경 */
+ }
