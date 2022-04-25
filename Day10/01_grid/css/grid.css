@@ -95,3 +95,48 @@
 /* grid-auto-flow */
 .auto-flow-row {grid-auto-flow: row;}
 .auto-flow-column {grid-auto-flow: column;}
+
+/* grid */
+/* [grid-template-rows] [grid-template-columns] */
+.grid-rows-columns {
+    grid: 100px 200px / 1fr 2fr;          /* 단축속성 */
+    /* grid-template-rows: 100px 200px; */         
+    /* grid-template-rows: 1fr 2fr; */
+
+}
+
+.grid-grid-template {
+    grid: 
+             "header header header" 100px
+             "main main main" 200px
+             "footer footer footer" 150px
+             /200px 300px 400px;
+}
+/* align-content */
+.align {height: 1000px;}
+.align-start {align-content: start;}
+.align-end {align-content: end;}
+.align-center {align-content: center;}
+.align-between {align-content: space-between;}
+.align-around {align-content: space-around;}
+.align-evenly {align-content: space-evenly;}
+.align-stretch {align-content: stretch; }
+
+/* justify-content */
+.justify {grid-auto-flow: column;}
+.justify-start {justify-content: start;}
+.justify-end {justify-content: end;}
+.justify-center {justify-content: center;}
+.justify-between {justify-content: space-between;}
+.justify-around {justify-content: space-around;}
+.justify-evenly {justify-content: space-evenly;}
+.justify-stretch {justify-content: stretch; }
+
+/* place-content */
+.place {height: 1000px;}
+.place-center-center {
+    place-content: center center;
+    /* align-content  justify-content */
+    /* 컨텐츠 수직정렬    컨텐츠  수평정렬*/
+}
+
