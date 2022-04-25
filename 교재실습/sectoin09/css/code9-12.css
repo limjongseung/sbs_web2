@@ -1,0 +1,10 @@
+p::first-letter { /* 문단의 첫 번째 글자를 선택 */
+    font-size: 20px;
+    color: red;
+    font-weight: 900;
+}
+
+p::first-line {/* 문단의 첫 번째 줄을 선택 */
+    background-color: blue;
+    color: yellow;
+}

@@ -1,0 +1,7 @@
+h2::before{
+    content: '하하';
+}
+
+h2::after{
+    content: '호호';
+}
