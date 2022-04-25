@@ -1,0 +1,53 @@
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: 3px dashed orange;
+    margin-bottom: 500px;
+    padding-bottom: 500px;
+}
+
+.grid-container {
+    display: grid;
+    border: 1px solid lightcoral;
+}
+
+.item {
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+    box-sizing: border-box;
+}
+
+.grid-row {
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* item속성 : grid-row */
+.grid-row .item1 {
+    grid-row: 1 / span 2;                /* span : 확장할 라인 개수 지정 */
+    /* grid-row: 1 / 3; */               /* 단축속성 : grid-row-start / grid-row-end */   
+    /* grid-row-start: 1; */             /* 개별속성 */
+    /* grid-row-end: 3;   */             /* 개별속성 */
+}
+
+.grid-column {
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+/* item속성 : grid-column */
+.grid-column .item1 {
+    grid-column: 1 / span 2;                /* span : 확장할 라인 개수 지정 */
+    /* grid-column: 1 / 3; */               /* 단축속성 : grid-column-start / grid-column-end */   
+    /* grid-column-start: 1; */             /* 개별속성 */
+    /* grid-column-end: 3;   */             /* 개별속성 */
+
+}
