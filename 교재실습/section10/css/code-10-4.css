@@ -1,0 +1,8 @@
+body{
+    background-image: url(../img/Sky.jpg);
+    background-size: 100% 500px;
+    /* 100%(가로길이), 500px(세로크기) */
+    background-repeat: no-repeat;
+    
+
+}

@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cadetblue;
+    background-image: url(../img/silhouette-971325.png);
+    /* 배경이미지를 적용하는 기본 방식 */
+}

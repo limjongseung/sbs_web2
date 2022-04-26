@@ -1,0 +1,7 @@
+div {
+    width: 700px;
+    height: 700px;
+    background: linear-gradient(45deg, #398235,#ffffff
+    51%, #c9de96 100%);
+    /* 그레이디언트 - 색상 각도, 색상1위치, 색상2위치, 색상3위치 */
+}

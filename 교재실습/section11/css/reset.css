@@ -1,0 +1,20 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a {text-decoration: none;}
+/* 링크속성 글자 밑줄 없앰 */
+li {
+    display: block;
+    /* inline 속성을 지니고 있는 img 태그의 오차 간격을 없애기 위한 속성 변경 */
+    border: none;
+    /* img 태그의 모든 테구리 선은 없음 으로 초기화 */
+}
+
+body {
+    font-family: 'Verdana';
+    font-size: 14px;
+    color: black;
+    line-height: 20px;
+}

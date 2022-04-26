@@ -1,0 +1,10 @@
+body {
+    background-image: url(../img/Sky.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 3000px;
+    /* 브라우저 창에 세로 스크롤 바를 만들기 위해 높이 적용 */
+    background-attachment: fixed;
+    /* 브라우저 창에서 스크롤 바를 움직이더라도 배경이미지는 고정되어 있음 */
+    /* background-attachment:scroll 은 기본값으로 스크롤 바의 움직임에 따라 배경 이미지도 움직임 */
+}
