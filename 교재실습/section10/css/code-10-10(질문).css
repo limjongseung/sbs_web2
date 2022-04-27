@@ -3,6 +3,6 @@ div {
     width: 700px;
     height: 700px;
     background: radial-gradient(ellipse at center,
-    #398235 0% #ffffff 51%, #c9de96 100%);
+    #398235 0%,#ffffff 51%, #c9de96 100%);
     /* 모양 at 위치,색상1(위치), 색상2(위치), 색상3 (위치) */
 }
