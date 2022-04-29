@@ -214,16 +214,16 @@ section.me ul.list {
 
 section.me ul.list > li { padding: 30px 60px; box-sizing: border-box;}
 /* 직무특성 및 소개 */
-section.me ul .list > li:nth-child(1) {border-bottom: 1px solid #ddd;}
+section.me ul.list > li:nth-child(1) {border-bottom: 1px solid #ddd;}
 section.me ul.list li h3 {font-size: 18px; margin-bottom: 20px; position: relative;}
 
 /* 아이콘 */
-section.me ul .list li h3 span{position: absolute; left: -35px; color: #ff8342;}
-section.me ul .list li > p{line-height: 1.6; margin-bottom: 20px;}
-section.me ul .list li > a{
+section.me ul.list li h3 span{position: absolute; left: -35px; color: #ff8342;}
+section.me ul.list li > p{line-height: 1.6; margin-bottom: 20px;}
+section.me ul.list li > a{
     display: inline-block; font-weight: bold; font-size: 16px; line-height: 1.6;
 }
-section.me ul .list li > a span{
+section.me ul.list li > a span{
     color: #ff8342; font-weight: bold; margin-left: 3px; font-size: 14px;
 }
 /* 인재상 */
@@ -325,8 +325,8 @@ section.sns ul li a .bottom p.time{
 }
 /* 시계 아이콘 */
 section.sns ul li a .bottom p.time::before{
-    font-family: Font FontAwesome;
-    content: '\f017';
+    font-family: FontAwesome;
+    content: '\f017';  /* 시계 아이콘 */
     line-height: 30px;
     position: absolute;
     left: 0;
