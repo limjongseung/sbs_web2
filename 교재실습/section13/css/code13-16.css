@@ -1,0 +1,24 @@
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 300px;
+}
+
+td {
+    border: 1px dotted black;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+    width: 200px;
+}
+.cell1 {
+    vertical-align: top; /* 상단 정렬 */
+}
+
+.cell2{
+    vertical-align: middle; /* 가운데 정렬 */
+}
+
+.cell3{
+    vertical-align: bottom; /* 하단정렬 */
+}

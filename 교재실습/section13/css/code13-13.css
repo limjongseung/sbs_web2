@@ -1,10 +1,13 @@
-table {
+table{
     border: 2px solid black;
-    empty-cells: hide; /* 내용이 없는 셀에 대하여 비워둠 */
+    border-collapse: collapse;
+    width: 400px;
 }
 
 td {
     border: 1px dotted black;
     padding: 15px;
+    height: 40px;
     text-align: center;
+    width: 200px;
 }

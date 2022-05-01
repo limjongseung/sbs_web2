@@ -1,0 +1,15 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 400px;
+    table-layout: fixed; /* 지정된 넓이를 고정시킴 */
+    word-break: break-all; /* 셀의 내용이 벗어나지 않도록 함 */
+}
+
+td {
+    border: 1px dotted black;
+    padding: 15px;
+    height: 40px;
+    text-align: center;
+    width: 200px;
+}
