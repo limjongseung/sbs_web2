@@ -1,0 +1,25 @@
+
+.innerHeader  {
+    display: flex;
+    justify-content: space-between;
+}
+.innerHeader .gnb ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+}
+/* innerheader.tnb는 이미 flex 적용 */
+
+section.innovations .imgBox .inner .bottom {
+    display: flex;
+    justify-content: space-around;
+}
+section.me ul.in li {display: flex;}
+section.sns ul {display: flex;}
+footer .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .inner .list {display: flex;}
