@@ -1,0 +1,42 @@
+* {margin: 0;padding: 0;}
+/* 부모박스요소 */
+.movie {
+    width: 700px;
+    height: 500px;
+    border: 2px solid gray;
+    background-color: darkslateblue;
+    position: relative;
+}
+
+/* 자식박스요소 */
+button {
+    width: 120px;
+    height: 120px;
+    line-height: 120;
+    border-radius: 120px;
+    text-align: center;
+    border: none;
+    font-size: 30px;
+    background-color: antiquewhite;
+    position: absolute;
+    color: black;
+    z-index: 4;
+}
+
+.prev{
+    top: 50%;
+    left: 10px;
+    margin-top: -60px;
+}
+.next {
+    top: 50%;
+    right: 10px;
+    margin-top: -60px;
+}
+
+.play {
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -60px;
+}
