@@ -1,0 +1,8 @@
+/* 공통 스타일 */
+.btn {
+    display: inline-block;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    /* var 함수를 사용하여 css 변수지정한 색상을 가져올 수 있다. */
+    background-color: var(--sub);
+}

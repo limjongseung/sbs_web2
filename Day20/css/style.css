@@ -14,7 +14,6 @@
 
 /* 섹션별 타이틀 */
 .section-title {
-    font-size: 50px;
     line-height: 60px;
     margin-bottom: 30px;
 }
@@ -25,7 +24,7 @@
     margin-bottom: 30px;
 }
 
-.span {color: var(--main);}
+span {color: var(--main);}
 
 /* 헤더 */
 header {
@@ -100,7 +99,6 @@ section.main {
 }
 
 section.main .main-title{
-    margin: 50px auto;
     position: absolute;
     top: 50px;
     left: 50%;
@@ -109,8 +107,6 @@ section.main .main-title{
     text-align: center;
 }
 section.main .main-title .title{font-size: 52px;}
-section.main .main-title .sub-title{font-size: 24px;}
-
 /* 섹션 :  main - 라면슬라이드 */
 .ramen-slide {position: absolute; left: 50%;}
 #ramen-slide01 {bottom: 30%; transform: translateX(-50%);}
@@ -142,3 +138,181 @@ section.main .img-box{
     left: 50%; bottom: -14px; transform: translateX(-50%);
 }
 section.main .img-box img{width: 100%;}
+
+/* 섹션 : intro */
+section.intro {
+    min-height: 70px;
+    background-color: #eee;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* 섹션 : recommend */
+section.recommend {
+    text-align: center;
+    padding: 120px 0;
+}
+
+section.recommend .slide-box {
+    width: 1440px;
+    margin: 100px auto;
+}
+section.recommend .slide-box ul {
+    display: flex;
+    justify-content: space-between;
+}
+section.recommend .slide-box ul li {
+    position: relative;
+    width: calc(100% /3);
+}
+section.recommend .slide-box ul li .label {
+    padding: 16px 18px;
+    background-color: var(--sub);
+    border-radius: 30px;
+    color: var(--white);
+    position: absolute;
+    left: 50%;
+    bottom: 160px;
+    transform: translateX(-50%);
+
+}
+section.recommend .slide-box ul li .content-box {
+    margin-top: 50px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    
+}
+section.recommend .slide-box ul li .content-box p {
+    font-size: 20px;
+}
+
+/* section : about */
+section.about {
+    min-height: 1800px;
+    padding: 120px 0;
+    box-sizing: border-box;
+    
+}
+section.about .inner{
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+section.about .inner .about-list{position: relative;}
+/* 케릭터 */
+section.about .inner .about-list .img-box{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+}
+section.about .inner .about-list .card-box{
+    width: calc(50%-40px);
+    max-width: 600px;
+    height: 600px;
+    padding: 50px 50px 0px 50px;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 80px;
+
+}
+section.about .inner .about-list .card-box.left{float: left;}
+section.about .inner .about-list .card-box.right{float: right; top: 120px;}
+
+section.about .inner .about-list .card-box.box1{
+    background:url(../img/img_about_bg01.png) bottom center/100% no-repeat;
+    background-color: var(--bg-light);
+}
+section.about .inner .about-list .card-box.box2{
+    background:url(../img/img_about_bg02.png) bottom center/100% no-repeat;
+    background-color: var(--bg-light);
+}
+section.about .inner .about-list .card-box.box3{
+    background:url(../img/img_about_bg03.png) bottom center/100% no-repeat;
+    background-color: var(--bg-light);
+}
+section.about .inner .about-list .card-box.box4{
+    background:url(../img/img_about_bg04.png) bottom center/100% no-repeat;
+    background-color: var(--bg-light);
+}
+
+section.about .about-title {
+    font-size: 36px;
+    line-height: 40px;
+    word-break: keep-all;   /* 단어단위로 줄바꿈 */
+
+}
+section.about .about-info {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: var(--main);
+}
+
+.btn-more {
+    display: block;
+    width: 38px;
+    height: 38px;
+    line-height: 25px;
+    padding: 10px;
+    background-color: black;
+    color: var(--white);
+    font-size: 30px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+
+/* 섹션 : review */
+section.review {
+    text-align: center;
+    padding: 120px 0;
+    background-color: var(--peach-orange);
+    min-height: 800px;
+}
+
+section.review .card-list {
+    display: flex;
+    flex-direction: row;
+}
+section.review .card-list ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+section.review .card-list ul li {}
+section.review .card-list ul li .card-box {
+    width: 310px;
+    height: 480px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+section.review .card-list ul li .card-box .img-box {
+    width: 100%;
+    height: 240px;
+    
+}
+section.review .card-list ul li .card-box .img-box img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+section.review .card-list ul li .card-box  .content .inner {
+    width: 100%;
+    height: 240px;
+    background-color: var(--white);
+}
+/* 이어서 보겠습니다. */
+section.review .card-list ul li .card-box  .content .inner .review-name {}
+section.review .card-list ul li .card-box  .content .inner .review-content {}
+section.review .card-list ul li .card-box  .content .inner a {}
+section.review .card-list ul li .card-box  .content .inner a .sub-title {}
+section.review .card-list ul li .card-box  .content .inner a .sub-content {}
+section.review .card-list ul li .card-box  .content .inner a .date{}
