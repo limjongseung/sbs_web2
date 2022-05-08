@@ -289,7 +289,7 @@ section.review .card-list ul li .card-box .content .inner{
     height: 240px;
     background-color: var(--white);
 }
-
+/* 이어서 보겠습니다. */
 section.review .card-list ul li .card-box .content .inner .review-name{}
 section.review .card-list ul li .card-box .content .inner .review-content{}
 section.review .card-list ul li .card-box .content .inner a{}
