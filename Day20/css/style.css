@@ -1,7 +1,7 @@
 
 
 /* 가로스크롤 방지 */
-html {width: 100vw; overflow-x: hidden;}
+html {width: 100%; overflow-x: hidden;}
 /* 공통 스타일 */
 .btn {
     display: inline-block;
@@ -17,6 +17,7 @@ html {width: 100vw; overflow-x: hidden;}
 
 /* 섹션별 타이틀 */
 .section-title {
+    font-size: 50px;
     line-height: 60px;
     margin-bottom: 30px;
 }
@@ -532,3 +533,88 @@ footer .copy-right{
     text-align: center;
     font-size: 12px;
 }
+
+/* 반응형 */
+.pc {display: block !important;}
+.pc-flex { display: flex !important;}
+.mobile {display: none !important;}
+
+/* 600px이하의 (모바일) */
+@media screen and (max-width: 600px){
+    .pc{display: none  !important;}
+    .pc-flex{display: none !important;}
+    .mobile{display: block !important;}
+
+    /* 섹션 - 메인 */
+    section.main {min-height: 550px; max-height:550px ;}
+    section.main .main-title .title{font-size: 28px;}
+    section.main .main-title .sub-title{font-size: 14px;}
+    section.main .main-title {width: 100%;}
+    .btn {padding: 10px 20px; margin: 15px auto 0; font-size: 14px;}
+    .ramen-slide .slide li {width: 100px; height: 100px;}
+    .ramen-slide .slide li img{width: 90px;}
+    section.main .img-box {width: 150px;}
+
+    /* 공통 타이틀 */
+    .section-title {font-size: 24px; line-height: 40px; margin-bottom: 20px;}
+    .info {font-size: 14px; line-height: 20px;}
+    /* 섹션-intro */
+    section.intro{min-height: 400px;}
+
+    /* 섹션 - recommend */
+    section.recommend .slide-box {width: 100%; margin: 50px auto;}
+    section.recommend .slide-box ul {flex-direction: column; align-items: center;}
+    section.recommend .slide-box ul li {width: 100%;}
+    section.recommend .slide-box ul li .label{bottom: 140px;}
+
+    /* 섹션 - about */
+    section.about {padding: 0 0 120px;}
+    section.about .inner .about-list .card-box{
+        width: 90%;
+        height: 460px;
+        margin: 80px auto 0;
+    }
+    section.about .about-title{font-size: 14px; line-height: 30px;}
+    section.about .about-list .card-box{height: 100px;}
+    section.about .inner .about-list .card-box.left{float: none;}
+    section.about .inner .about-list .card-box.right{float: none; top: 0;}
+    section.about .inner .about-list .img-box {
+        top: -240px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200px;
+        height: 200px;
+
+    }
+    section.about .inner .about-list .img-box img {width: 100%;}
+    .btn-more {width: 30px;height: 30px; padding: 6px; top: 40px; right: 40px;}
+
+    /* 섹션 - review */
+    section.review .inner {width: 90%; margin: 0 auto;}
+    section.review .card-list ul {flex-wrap: wrap; width: 100%; }
+    section.review .card-list ul li {width: 48%; margin-bottom: 18px;}
+    section.review .card-list ul li .card-box {width: 100%;}
+
+    /* 섹션 - banner */
+    section.banner .inner{
+        flex-direction: column;
+    } 
+    section.banner .right-img {text-align:left; margin-top: 0;}
+    section.banner .right-img img {width: 50%;}
+
+    /* 섹션 - app */
+    section.app .inner {width: 100%;}
+    section.app .inner .card-box {
+        width: 90%;
+        min-height: 450px;
+        max-height: 450px;
+        background-size: 100%;
+    }
+    section.app .inner .card-box .app-info {font-size: 16px;}
+    section.app .inner .card-box .app-title {font-size: 24px; line-height: 30px;}
+/* slide */
+/* 이미 */
+
+
+}
+
