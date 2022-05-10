@@ -1,4 +1,6 @@
+html{overflow-x: hidden;}
 /* 공통 스타일 */
+
 .btn {
     display: inline-block;
     padding: 20px 30px;
@@ -13,6 +15,7 @@
 
 /* 섹션별 타이틀 */
 .section-title {
+    font-size: 40px;
     line-height: 60px;
     margin-bottom: 30px;
 }
@@ -290,9 +293,33 @@ section.review .card-list ul li .card-box .content .inner{
     background-color: var(--white);
 }
 /* 이어서 보겠습니다. */
-section.review .card-list ul li .card-box .content .inner .review-name{}
-section.review .card-list ul li .card-box .content .inner .review-content{}
-section.review .card-list ul li .card-box .content .inner a{}
-section.review .card-list ul li .card-box .content .inner a .sub-title{}
-section.review .card-list ul li .card-box .content .inner a .sub-content{}
-section.review .card-list ul li .card-box .content .inner a .date{}
+section.review .card-list ul li .card-box .content .inner .review-name{
+    text-align: left;
+    margin-bottom: 10px;
+}
+section.review .card-list ul li .card-box .content .inner .review-content{
+    font-size: 12px;
+    text-align: left;
+    color: gray;
+}
+section.review .card-list ul li .card-box .content .inner a{
+    display: block;
+    font-size: 12px;
+    text-align: left;
+    color: gray;
+}
+section.review .card-list ul li .card-box .content .inner a .sub-title{
+    font-size: 12px;
+    text-align: left;
+    color: var(--main);
+}
+section.review .card-list ul li .card-box .content .inner a .sub-content{
+    font-size: 10px;
+    text-align: left;
+    color: gray;
+}
+section.review .card-list ul li .card-box .content .inner a .date{
+    font-size: 10px;
+    text-align: right;
+    color: gray;
+}
