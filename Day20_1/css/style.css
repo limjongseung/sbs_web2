@@ -308,17 +308,17 @@ section.review .card-list ul li .card-box .content .inner a{
     text-align: left;
     color: gray;
 }
-section.review .card-list ul li .card-box .content .inner a .sub-title{
+section.review .card-list ul li .card-box .content .inner .sub-title{
     font-size: 12px;
     text-align: left;
     color: var(--main);
 }
-section.review .card-list ul li .card-box .content .inner a .sub-content{
+section.review .card-list ul li .card-box .content .inner .sub-content{
     font-size: 10px;
     text-align: left;
     color: gray;
 }
-section.review .card-list ul li .card-box .content .inner a .date{
+section.review .card-list ul li .card-box .content .inner .date{
     font-size: 10px;
     text-align: right;
     color: gray;
