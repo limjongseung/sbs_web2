@@ -9,10 +9,20 @@
 </head>
 <body>
     <ul class="clearfix">
+        <li>10px</li>
         <li></li>
-        <li></li>
-        <li></li>
+        <li><a href="#">3</a></li>
     </ul>
+    <!-- 클래스 선택자에서 숫자가 먼저 나오면 안됨 -->
+    <div class="box1">
+        <div class="list1" style="z-index: 1;">
+
+        </div>
+
+    </div>
     
+    <div class="box2" style="z-index: 1;">
+        <div class="list2" style="z-index: 10;"></div>
+    </div>
 </body>
 </html>

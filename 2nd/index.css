@@ -5,7 +5,14 @@
     clear: both;
 }
 
-* {margin: 0;padding: 0;}
+/* 일일이 모든태그에 속성을 주는 것 */
+* {margin: 0;padding: 0; box-sizing: border-box;}
+/* 상속을 이용하여 한번에 속성을 주는 것 */
+html { font-size: 10px;}
+body {
+    font-size: 20px;
+    color: white;
+}
 
 ul {
     list-style-type: none;
@@ -24,14 +31,19 @@ ul li {
 
 ul li:nth-child(1){
     background-color: green;
-     float: right;
+     float: left;
     }
 
 ul li:nth-child(2){
     background-color: yellow;
-    float: left;
+    float: right;
 }
 ul li:nth-child(3){
     background-color: violet;
-     float: right;
+     float: left;
+    }
+
+    ul li:nth-child(3) a {
+        color: #fff;
+        text-decoration: none   ;
     }
