@@ -1,0 +1,37 @@
+
+.clearfix::after {
+    content: ""; /* default : 무효화 */
+    display: block;
+    clear: both;
+}
+
+* {margin: 0;padding: 0;}
+
+ul {
+    list-style-type: none;
+    width: 700px;
+    /* height: 200px; */
+    /* 자식이 있는 부모는 왠만하면 height 사용하지 않는게 좋습니다. */
+    background-color: red;
+    /* overflow: hidden; */
+    /* 콘텐츠의 유동성을 위해서 */
+}
+
+ul li {
+    width: 200px;
+    height: 200px;
+}
+
+ul li:nth-child(1){
+    background-color: green;
+     float: right;
+    }
+
+ul li:nth-child(2){
+    background-color: yellow;
+    float: left;
+}
+ul li:nth-child(3){
+    background-color: violet;
+     float: right;
+    }
